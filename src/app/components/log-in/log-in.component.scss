@@ -11,6 +11,8 @@ $childMarginRight: 2rem;
 $linkColor: #A8A8A8;
 $linkFontSize: 16px;
 $cardTitleSize: 61px;
+$cardPadX: 155px;
+$cardPadY: 48px;
 
 
 header {
@@ -64,7 +66,7 @@ footer {
 }
 
 .card {
-    padding: 1rem 3rem;
+    padding: $cardPadY $cardPadX;
     background-color: #fff;
 }
 
